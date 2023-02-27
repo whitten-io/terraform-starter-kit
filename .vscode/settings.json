@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "[hcl]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "hashicorp.hcl",
+    },
+    "[terraform]": {
+        "editor.defaultFormatter": "hashicorp.terraform"
+    }
+}
