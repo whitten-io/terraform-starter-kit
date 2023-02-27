@@ -1,5 +1,6 @@
 # environment files 
 .env 
+
 # Local .terraform directories
 **/.terraform/*
 
