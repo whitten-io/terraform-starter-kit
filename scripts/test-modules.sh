@@ -4,8 +4,7 @@
 module_dirs=$(find ./modules -type d)
 
 # Run TFLint, tfsec, and terraform-docs in each subdirectory
-for dir in $module_dirs
-do
+for dir in $module_dirs; do
   echo "Running TFLint in $dir"
   tflint $dir
 
